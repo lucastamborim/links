@@ -1,29 +1,28 @@
 import { colors } from "@/styles/colors";
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
- container : {
+  container: {
     flex: 1,
     paddingTop: 62,
- },
- 
- title: {
- color: colors.green[900],
- fontSize: 22, 
+  },
 
-},
+  title: {
+    color: colors.green[900],
+    fontSize: 22,
+  },
 
-header: {
+  header: {
     paddingHorizontal: 24,
     width: "100%",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     marginBottom: 32,
-},
+  },
 
-logo: {
-        height: 32,
-        width: 38,  
-    }
+  logo: {
+    height: 32,
+    width: 38,
+  },
 });

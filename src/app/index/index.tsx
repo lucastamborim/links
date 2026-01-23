@@ -1,19 +1,17 @@
-import { colors } from '@/styles/colors';
+import { colors } from "@/styles/colors";
 import { MaterialIcons } from "@expo/vector-icons";
-import { Image, TouchableOpacity, View } from 'react-native';
-import { styles } from './styles';
+import { Image, TouchableOpacity, View } from "react-native";
+import { styles } from "./styles";
 
 export default function Index() {
-
-    return (  
+  return (
     <View style={styles.container}>
-        <View style={styles.header}>
-        <Image source={require("@/assets/logo.png")} style={styles.logo}/>
+      <View style={styles.header}>
+        <Image source={require("@/assets/logo.png")} style={styles.logo} />
         <TouchableOpacity>
-            <MaterialIcons name='add' size={32} color={colors.green[300]} />
+          <MaterialIcons name="add" size={32} color={colors.green[300]} />
         </TouchableOpacity>
-        
-        </View>
+      </View>
     </View>
-)
+  );
 }
