@@ -22,7 +22,8 @@
         "backgroundColor": "#09090B"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.lucastamborim.links"
     },
     "web": {
       "bundler": "metro",
