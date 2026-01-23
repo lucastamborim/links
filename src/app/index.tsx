@@ -1,4 +1,5 @@
 import { Text, View } from 'react-native';
+import { } from "../styles/colors";
 
 export default function Index() {
 
@@ -8,4 +9,3 @@ export default function Index() {
     </View>
 )
 }
-
